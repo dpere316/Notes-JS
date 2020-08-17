@@ -16,7 +16,12 @@ setNextNode(node)
   else {
     throw new Error ('error')
   }
+
 }
+
+getNextNode(){
+    return this.next
+  }
 
 }
 
@@ -33,4 +38,11 @@ firstNode.setNextNode(secondNode); // The first-node points to the second-node
 
 console.log(firstNode); // returns an object of the Node
 
+console.log(firstNode.getNextNode()) // return the next node
+
 module.exports = Node;
+
+// What properties makea Node Useful?
+// Data helps to store information, and the next is a link to other Nodes for easier traversal
+
+// When instances of Nodes are created, they are orphan nodes. The data property is set to the constructor argument, but the next node is null. 
