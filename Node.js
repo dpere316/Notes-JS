@@ -7,9 +7,17 @@ class Node {
   }
 
 //   Method sets the next node to point 
-  setNextNode(node) {
-    this.next = node;
+setNextNode(node) 
+{
+  if(node instanceof Node || node === null)
+  {
+    this.next = node
   }
+  else {
+    throw new Error ('error')
+  }
+}
+
 }
 
 const firstNode = new Node(5); // insantiates a new node called firstNode with data  == 5
