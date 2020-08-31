@@ -1,0 +1,15 @@
+Variables are used to store data temporaily in computer memory. 
+
+Constants Values do not change. 
+
+JavaScript is Dynamic
+
+There are two types in JavaScript:
+Primitive Types [String, Number, Boolean, undefined, null]
+
+Reference Types [objects, arrays, functions]
+
+Objects: Key Value pairs also know as the properties,
+Two ways to access properties there is Dot Notation or Bracket Notation
+
+Arrays: List of objects

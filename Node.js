@@ -46,3 +46,6 @@ module.exports = Node;
 // Data helps to store information, and the next is a link to other Nodes for easier traversal
 
 // When instances of Nodes are created, they are orphan nodes. The data property is set to the constructor argument, but the next node is null. 
+
+// How do you determine if nodes are orphan nodes? 
+// There are no nodes that point to it. 

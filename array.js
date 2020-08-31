@@ -53,3 +53,7 @@ let words = phrase.split(" ");
 console.log(words);
 console.log(words[0]);
 console.log(words.length);
+
+
+// static arrays - 
+// dynamic arrays - 
