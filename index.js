@@ -33,3 +33,60 @@ function square(number){
 }
 
 console.log(square(2))
+
+let x = 10;
+let y = 3;
+
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x / y);
+// console.log(x * y);
+// console.log(x % y);
+// console.log(x ** y); // Exponent
+
+// Increment 
+    // console.log(x++); // increments after x = 10
+    // or x = x + 1 
+    // console.log(x) // x = 11
+    // console.log(++x) // increments then it prints
+
+// Decrement
+    // console.log(--x)
+    // console.log(x--) 
+    // or x = x - 1 
+    // console.log(x)
+
+// Relational
+    // console.log(x > 0)
+    // console.log(x < 0)
+    // console.log(x >= 10)
+    // console.log(x <= 10)
+
+// Equality
+// Strict equality (type + value) are equal
+    // console.log(x === 10) 
+    // console.log(x !== 10)
+// Lose equality does not care about the type it will convert the type on the right side to match the type on the left side (value)
+    console.log(x == '10')
+
+// Ternary Operator
+
+// If a customer has more than 100 points ,
+// they are a 'gold' customer, otherwise,
+// they are a 'silver' cutomer.
+
+let points = 90
+let type = points > 100 ? 'gold' : 'silver'
+console.log(type)
+
+
+// Logical AND (&&)
+// Returns TRUE if both operands are TRUE
+let highIncome = false;
+let goodCreditScore = false;
+let eligble = highIncome || goodCreditScore;
+console.log('Eligible ' + eligble)
+
+// NOT (!)
+let refused = !eligble;
+console.log('Application Refused ' +  refused)
